@@ -20,6 +20,7 @@ class App extends Component {
       </span>
       <script>
 {console.log( "Hello JavaScript!")}
+
 </script>
 
       <div className="october">
