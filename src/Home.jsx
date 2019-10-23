@@ -4,9 +4,16 @@ import {Link} from 'react-router-dom'
 
 
 class Home extends Component {
+    constructor(){
+        super()
+        this.state ={
+
+        }
+        this.link = this.link.bind(this)
+    }
 
   link(){
-
+    this.props.history.push('/otherpage')
   }
 
   render(){
@@ -17,7 +24,7 @@ class Home extends Component {
         relative
       </div>
       <span onClick={this.link}  className='psuedolink'>
-
+        
         thisisalink.com
       </span>
       <script>
