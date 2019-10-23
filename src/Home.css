@@ -1,0 +1,71 @@
+.App {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  section{
+    background: cyan;
+  }
+  h1, p {
+    color: red;
+  }
+  .october > p {
+    color: blue;
+  }
+  #para1{
+  background: green;
+  }
+  
+  .psuedolink { 
+     color:blue; 
+     text-decoration:underline; 
+     cursor:pointer; 
+     }
+  
+  
+  
+  .test2 + p{
+  background: pink;
+  }
+  .test2{
+    height: 1rem;
+    width: 1rem;
+  }
+  footer{
+    background: black;
+    color: white;
+  }
+  .relative{
+    position: relative;
+    background: pink;
+    height: 3rem;
+    width: 3rem;
+  }
+  .absolute{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    right: 2rem;
+    top: 2rem;
+  }
+  .span{
+    background: brown;
+    height: 3rem;
+    width: 3rem;
+  display: inline-block;
+  }
+  
+  .fixed{
+    position: fixed;
+    background: orange;
+    height: 3rem;
+    width: 3rem;
+    right: .5rem;
+    top: .5rem;
+  }
+  .lists{
+    width: 40rem;
+    display: flex;
+  }
