@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './App.css'; 
+import {Link} from 'react-router-dom'
+
 
 class App extends Component {
 
@@ -26,6 +28,11 @@ class App extends Component {
       <div className="october">
         <p>Test</p>
       </div>
+      <Link to='/otherpage'>
+      <button>
+        Go to other page
+      </button>
+      </Link>
       <div className="test2">
         <p>test two</p>
       </div>
