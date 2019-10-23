@@ -3,6 +3,10 @@ import './App.css';
 
 class App extends Component {
 
+  link(){
+
+  }
+
   render(){
   return (
     <div className="App">
@@ -10,7 +14,21 @@ class App extends Component {
       <div className="relative">
         relative
       </div>
-      <div className="absolute">
+      <span onClick={this.link}  className='psuedolink'>
+
+        thisisalink.com
+      </span>
+      <script>
+{console.log( "Hello JavaScript!")}
+</script>
+
+      <div className="october">
+        <p>Test</p>
+      </div>
+      <div className="test2">
+        <p>test two</p>
+      </div>
+      <div id='para1' className="absolute">
         absoute
       </div>
       <div className="fixed">
@@ -40,7 +58,7 @@ class App extends Component {
       </article>
       <footer>
         Footer
-      </footer>
+      </footer >
     </div>
   )}
 }

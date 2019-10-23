@@ -8,6 +8,31 @@
 section{
   background: cyan;
 }
+h1, p {
+  color: red;
+}
+.october > p {
+  color: blue;
+}
+#para1{
+background: green;
+}
+
+.psuedolink { 
+   color:blue; 
+   text-decoration:underline; 
+   cursor:pointer; 
+   }
+
+
+
+.test2 + p{
+background: pink;
+}
+.test2{
+  height: 1rem;
+  width: 1rem;
+}
 footer{
   background: black;
   color: white;
@@ -20,7 +45,6 @@ footer{
 }
 .absolute{
   position: absolute;
-  background: green;
   height: 3rem;
   width: 3rem;
   right: 2rem;
