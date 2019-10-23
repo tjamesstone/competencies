@@ -65,7 +65,12 @@
     right: .5rem;
     top: .5rem;
   }
+  
   .lists{
     width: 40rem;
     display: flex;
+  }
+
+  .lists ul{
+      color: blue;
   }
