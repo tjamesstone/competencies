@@ -11,6 +11,7 @@ class App extends Component {
   return (
     <div className="App">
      App
+     <input className='disabled' type="text" name="" id="" disabled/>
      {routes}
     </div>
   )}

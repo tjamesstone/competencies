@@ -5,6 +5,9 @@
   padding: 1rem;
   border: 1px solid black;
 }
+.App:nth-child(3){
+  color:green;
+}
 section{
   background: cyan;
 }
@@ -65,7 +68,17 @@ footer{
   right: .5rem;
   top: .5rem;
 }
+.fixed:hover{
+  background: pink;
+}
+.fixed:focus{
+  background: green;
+  cursor: copy;
+}
 .lists{
   width: 40rem;
   display: flex;
+}
+.disabled:disabled{
+  background: red;;
 }
